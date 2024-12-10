@@ -1,0 +1,14 @@
+var a, b, c, d : logical;
+begin
+read(a, b, d);
+write(a, b, c, d);
+if (d = 1) then
+read(a);
+b = not.a;
+else
+read(a);
+b = 1;
+end_if;
+c = not.a.equ.1;
+write(a, b, c, d);
+end
